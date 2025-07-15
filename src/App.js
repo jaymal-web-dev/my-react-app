@@ -9,6 +9,13 @@ function App() {
                 <p>Edit <code>src/App.js</code> and save to reload.</p>
                 <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >Learn React</a>
             </header>
+            <header className='main-header'>
+                <ul className='menu-links'>
+                    <li className='menu-item'>Home</li>
+                    <li className='menu-item'>About</li>
+                    <li className='menu-item'>Portfolio</li>
+                </ul>
+            </header>
         </div>
     );
 }
